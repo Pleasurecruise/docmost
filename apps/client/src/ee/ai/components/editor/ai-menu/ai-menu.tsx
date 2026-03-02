@@ -271,7 +271,7 @@ const EditorAiMenu = ({ editor }: EditorAiMenuProps): JSX.Element | null => {
   return createPortal(
     <div
       style={{
-        zIndex: 200,
+        zIndex: 199,
         position: "absolute",
         top: menuPlacement.top,
         left: menuPlacement.left,
